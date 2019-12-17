@@ -3,7 +3,7 @@
 This repo contains a small test case which demonstrates an issue introduced with [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) v0.8.1 whereby the `context` property for instances of `CssModule` is set to `null` resulting in errors like:
 
 ```
-TypeError: TypeError: Cannot read property 'match' of null
+TypeError: Cannot read property 'includes' of null
 ```
 
 

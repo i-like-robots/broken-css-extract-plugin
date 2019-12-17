@@ -29,7 +29,7 @@ module.exports = {
       cacheGroups: {
         ['dom-loaded']: {
           test (module) {
-            return module.context.endsWith('dom-loaded')
+            return module.context.includes('dom-loaded')
           }
         }
       }
